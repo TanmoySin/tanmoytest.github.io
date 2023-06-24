@@ -1,0 +1,41 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+}
+td,
+th {
+  border: 2px solid #cccccc;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: grey;
+}
+#click:hover {
+  cursor: pointer;
+  background-color: grey;
+}
+#logout {
+  background-color: black;
+  font-weight: bold;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#right {
+  text-align: right;
+}
+c {
+  color: darkred;
+}

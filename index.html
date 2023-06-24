@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Log-In Page</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="label">User Login</h1>
+      <h5>Username and Password must be more then 5 digits</h5>
+      <form class="login_form" name="form" action="Home/homepage.html">
+        <div class="font">Username</div>
+        <input autocomplete="off" type="text" name="username" />
+        <div id="username_error">Please enter valid Username</div>
+        <div class="font font2">Password</div>
+        <input type="password" name="password" />
+        <div id="pass_error">Please enter valid password</div>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
